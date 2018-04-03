@@ -336,6 +336,9 @@
     <ClInclude Include="ConEmu\SetPgKeys.h">
       <Filter>Settings</Filter>
     </ClInclude>
+    <ClInclude Include="ConEmu\SetPgMain.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
     <ClInclude Include="ConEmu\SetPgMarkCopy.h">
       <Filter>Settings</Filter>
     </ClInclude>
@@ -1023,6 +1026,9 @@
       <Filter>Settings</Filter>
     </ClCompile>
     <ClCompile Include="ConEmu\SetPgKeys.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="ConEmu\SetPgMain.cpp">
       <Filter>Settings</Filter>
     </ClCompile>
     <ClCompile Include="ConEmu\SetPgMarkCopy.cpp">

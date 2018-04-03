@@ -889,6 +889,10 @@ bool CSetDlgButtons::ProcessButtonClick(HWND hDlg, WORD CB, BYTE uCheck)
 			}
 			break;
 
+		case cbStartupShellFast:
+			gpSetCls->ActivatePage(thi_Startup);
+			break;
+
 		default:
 			if (CDlgItemHelper::isHyperlinkCtrl(CB))
 			{
