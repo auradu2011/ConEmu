@@ -696,6 +696,8 @@
     "cbSingleInstance": {
       "en": [ "Use one ConEmu window when starting new console from shortcut or somewhere\r\n"
             , "May be disabled by ‘/nosingle’ or forced by ‘/single’ switches" ],
+      "ru": [ "Использовать один экземпляр окна ConEmu при запуске других консолей\r\n"
+            , "Может быть отключено ключом ‘/nosingle’ или включено ключом ‘/single’" ],
       "zh": [ "当从快捷图标或某些方式打开新的控制台（console）时，使用ConEmu窗口\r\n"
             , "此功能可被‘/nosingle’关闭，或被‘/single’开关强制启用" ],
       "id": 2578 }
@@ -2894,9 +2896,9 @@
       "id": 37 }
     ,
     "lng_SpgFonts": {
-      "en": "Main",
-      "ru": "Основные",
-      "zh": "主要",
+      "en": "Fonts",
+      "ru": "Шрифты",
+      "_zh": "主要",
       "id": 25 }
     ,
     "lng_SpgHighlight": {
@@ -2927,6 +2929,12 @@
       "ru": "Кнопки & Макросы",
       "zh": "按键 & 宏",
       "id": 45 }
+    ,
+    "lng_SpgMain": {
+      "en": "Main",
+      "ru": "Основные",
+      "zh": "主要",
+      "id": 87 }
     ,
     "lng_SpgMarkCopy": {
       "en": "Mark/Copy",
@@ -3024,7 +3032,7 @@
     ,
     "lng_UpdateCloseMsg1": {
       "en": "Please, close all ConEmu instances before continuing",
-      "_ru": "Пожалуйста закройте все открытые окна ConEmu перед продолжением",
+      "ru": "Пожалуйста, закройте все открытые окна ConEmu перед продолжением",
       "_zh": "继续之前请关闭所有ConEmu实例",
       "id": 66 }
     ,
@@ -3651,6 +3659,7 @@
     ,
     "cbEnableAutoUpdateFast": {
       "en": "Enable automatic updates",
+      "ru": "Включить авто-обновление",
       "zh": "启用自动更新",
       "id": 2087 }
     ,
@@ -3672,7 +3681,7 @@
     ,
     "cbExtendFonts": {
       "en": "Extend font styles",
-      "_ru": "Расширение стилей шрифтов",
+      "ru": "Расширение стилей шрифтов",
       "_zh": "扩展字体",
       "id": 1576 }
     ,
@@ -3856,6 +3865,7 @@
     ,
     "cbInjectConEmuHkFast": {
       "en": "Inject ConEmuHk.dll into all processes started in ConEmu tabs",
+      "ru": "Внедрять ConEmuHk.dll в процессы, запускаемые во вкладках ConEmu",
       "zh": "向ConEmu标签页里启动的所有进程注入ConEmuHk.dll",
       "id": 2098 }
     ,
@@ -3866,11 +3876,13 @@
     ,
     "cbInstallKeybHooks": {
       "en": "Install keyboard hooks",
+      "ru": "Обрабатывать специальные клавиши",
       "zh": "安装键盘hooks",
       "id": 1649 }
     ,
     "cbIntegralSize": {
       "en": "Align ConEmu window size to cells",
+      "ru": "Выравнивать размер окна ConEmu посимвольно",
       "zh": "对齐ConEmu窗口大小至单元格",
       "id": 2594 }
     ,
@@ -4004,6 +4016,7 @@
     ,
     "cbQuakeFast": {
       "en": "Quake-style slide down from the top of the screen",
+      "ru": "Включить Quake-режим выезжания окна сверху экрана",
       "zh": "从屏幕顶部Quake式向下滑动",
       "id": 2846 }
     ,
@@ -4327,6 +4340,7 @@
     ,
     "cbUseKeyboardHooksFast": {
       "en": "Install keyboard hooks (required for Win+Number, Win+Tab, PrntScrn and so on)",
+      "ru": "Обрабатывать специальные клавиши (Win+Number, Win+Tab, PrntScrn и т.п.)",
       "zh": "安装键盘hooks （被Win+Number, Win+Tab, PrntScrn等等所需要）",
       "id": 2086 }
     ,
@@ -4922,17 +4936,20 @@
       "id": 2141 }
     ,
     "rbAutoUpdateDeveloperFast": {
-      "en": "‘Developer’ builds",
-      "zh": "‘开发者’ builds",
+      "en": "‘Alpha’ builds",
+      "ru": "‘Alpha’ сборка",
+      "_zh": "‘开发者’ builds",
       "id": 2591 }
     ,
     "rbAutoUpdatePreviewFast": {
       "en": "‘Preview’",
+      "ru": "‘Preview’",
       "zh": "‘预览’",
       "id": 2590 }
     ,
     "rbAutoUpdateStableFast": {
       "en": "‘Stable’",
+      "ru": "‘Stable’",
       "zh": "‘稳定’",
       "id": 2589 }
     ,
@@ -5479,6 +5496,7 @@
     ,
     "stColorSchemeFast": {
       "en": "Choose preferred color scheme:",
+      "ru": "Выберите цветовую схему:",
       "zh": "选择最喜欢的颜色方案：",
       "id": 2845 }
     ,
@@ -5596,8 +5614,9 @@
       "id": 3054 }
     ,
     "stEnableAutoUpdateFast": {
-      "en": "You can change following on 'Update' page of Settings dialog later",
-      "zh": "你可以以后在设置对话框“更新”页面改变下面内容",
+      "en": "You can change following on 'Update' page of Settings dialog",
+      "ru": "Вы можете изменить настройки на вкладке 'Обновление' диалога настроек",
+      "_zh": "你可以以后在设置对话框“更新”页面改变下面内容",
       "id": 2093 }
     ,
     "stExtendFontBoldIdx": {
@@ -5723,9 +5742,15 @@
       "id": 2542 }
     ,
     "stInjectConEmuHkFast": {
-      "en": "You can change following on 'Features' page of Settings dialog later",
-      "zh": "你可以以后在设置对话框“特征”页面改变下面内容",
+      "en": "You can change following on 'Features' page of Settings dialog",
+      "ru": "Вы можете изменить настройки на вкладке 'Параметры' диалога настроек",
+      "_zh": "你可以以后在设置对话框“特征”页面改变下面内容",
       "id": 2744 }
+    ,
+    "stInterfaceLanguage": {
+      "en": "Choose ConEmu interface language:",
+      "ru": "Язык интерфейса ConEmu:",
+      "id": 3093 }
     ,
     "stIntgrHereCfg": {
       "en": "Configuration:",
@@ -5833,18 +5858,6 @@
       "zh": "不透明",
       "id": 2383 }
     ,
-    "stPalettePreviewFast": {
-      "en": [ "\n"
-            , "colors\n"
-            , "preview" ],
-      "ru": [ "\n"
-            , "консольная\n"
-            , "палитра" ],
-      "zh": [ "\n"
-            , "颜色\n"
-            , "预览" ],
-      "id": 2849 }
-    ,
     "stPriorityBox": {
       "en": "Priority",
       "zh": "优先权",
@@ -5903,8 +5916,9 @@
       "id": 2852 }
     ,
     "stSingleInstance": {
-      "en": "You can change following on 'Appearance' page of Settings dialog later",
-      "zh": "你可以以后在设置对话框“外观”页面改变下面内容",
+      "en": "You can change following on 'Appearance' page of Settings dialog",
+      "ru": "Вы можете изменить настройки на вкладке 'Внешний вид' диалога настроек",
+      "_zh": "你可以以后在设置对话框“外观”页面改变下面内容",
       "id": 2742 }
     ,
     "stStartCreateDelay": {
@@ -5919,6 +5933,7 @@
     ,
     "stStartupShellFast": {
       "en": "Choose your startup task or even a shell with arguments:",
+      "ru": "Запускать при старте ConEmu (Task или команда):",
       "zh": "选择你的启动任务或者带参数的shell:",
       "id": 2843 }
     ,
@@ -6166,8 +6181,9 @@
       "id": 2861 }
     ,
     "stUseKeyboardHooksFast": {
-      "en": "You can change following on 'Controls' page of Settings dialog later",
-      "zh": "你可以以后在设置对话框“控件”页面改变下面内容",
+      "en": "You can change following on 'Keyboard' page of Settings dialog",
+      "ru": "Вы можете изменить настройки на вкладке 'Клавиатура' диалога настроек",
+      "_zh": "你可以以后在设置对话框“控件”页面改变下面内容",
       "id": 2743 }
     ,
     "stVConFontFix": {
